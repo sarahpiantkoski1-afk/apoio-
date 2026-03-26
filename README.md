@@ -8,7 +8,7 @@ Site de apoio a jovens egressos de abrigos institucionais!
 |Laís Aguirre Cota|Responsável pela sintetização das funcionalidades e requisições do projeto, documentando-as. Também responsável pela programação.|
 
 ###### SITE DESENVOLVIDO POR:
-  Laís Aguirre Cota
+  Laís Aguirre Cota<br/>
   Sarah Lorena Berton Piantkoski
   
   >CONTATO: [blog](https://apoiadoresmais.blogspot.com/2025/11/historias-e-relatos.html)
