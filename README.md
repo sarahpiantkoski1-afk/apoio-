@@ -13,3 +13,5 @@ Site de apoio a jovens egressos de abrigos institucionais!
   
   >CONTATO: [blog](https://apoiadoresmais.blogspot.com/2025/11/historias-e-relatos.html)
 
+###### PRÉ-PROJETO DE TCC:
+  [pré-projeto](https://docs.google.com/document/d/1EVwI5l5aLD2a_W79eZJ9914d8pZXSFwCl_-xl8xXPb4/edit?usp=sharing)
