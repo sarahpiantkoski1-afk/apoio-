@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: white;
+    background-image: url('../imagens/dessaveztacerto.jpg');
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    max-width: 100%;
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.05);
+}
+
+main {
+    min-height: calc(100vh - 240px);
+}
+
+section.contact {
+    display: flex;
+    width: 100%;
+}
+
+a {text-decoration: none;}
+
+a p.info-name {
+    text-align: start;
+    text-decoration: none;
+    margin-left: 25px;
+    color: #B99CE4;
+}
+
+a p.info-name:hover {
+    color: black;
+}
+
+img.icone-contact {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+picture.infos-contact a{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.email-item {
+    display: flex;          
+    align-items: center;    
+    gap: 10px;              
+}
+
+.icone-contact {
+    width: 24px;            
+    height: 24px;
+}
+
+
+#logo-img {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.logo-header {
+    height: 55px;
+}
+
+#options-header {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+#options-header ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+#options-header ul li a.logout {
+    color: white;
+    background: rgb(207, 78, 78);
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#options-header ul li a.logout:hover {
+    background: #962f2f; 
+    transform: scale(1.05);
+}
+
+#options-header ul li a.logout:active {
+    transform: scale(0.97);
+}
+
+#options-header ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+#options-header ul li a:hover {
+    color: white;
+    background: #B99CE4;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+#options-header .active {
+    color: white;
+    background: #B99CE4;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn-highlight {
+    background: #EDE4FF;
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.btn-highlight:hover {
+    background: #D9CCFF;
+}
+
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+#hero h1 {
+    font-size: 2.3rem;
+    color: #7B5BBE;
+    font-weight: 700;
+}
+
+#hero p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 24px 50px;
+    background: #6a3dd1;
+    color: white;
+    border-radius: 67px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    transition: .2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    background-color: #b184ff;
+    box-shadow: 0 6px 20px rgba(106, 61, 209, 0.35);
+    background: #b184ff;
+}
+
+#sobre {
+    color: black;
+}
+.foto_comeco{
+    display: block;      
+    margin-left: auto;   
+    margin-right: auto;     
+    max-width: 300px;    
+
+}
+
+main h2 {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px ;
+    color: black;
+    font-size: 26px;
+    border: 10px;
+    align-self: normal;
+}
+ .educativo-lista a {
+    color: rgba(17, 6, 46, 0.5);         
+    text-decoration: none;  
+    font-weight: 600;
+}
+.educativo-titulo {
+    color: #b184ff;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.educativo-subtitulo {
+    font-size: 18px;
+    color: #555;
+    margin-left: 30px; 
+    margin-bottom: 20px;
+}
+
+
+.educativo-lista a:hover {
+    color:#b184ff;            
+}
+
+.educativo-lista a:active {
+    color: #b184ff;            
+}
+
+.educativo-lista a:visited {
+    color: rgba(106, 61, 209, 0.35);          
+}
+
+
+
+
+.card {
+    background: rgba(255, 255, 255, 0.7);
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    
+}
+h4{
+    font-size:20px;
+    color: rgb(49, 49, 49);
+    text-align: top;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+footer p {color: black;}
+footer p a {text-decoration: none; color: black;}
